@@ -2,7 +2,7 @@ import React from "react";
 import checkbox from "../Assets/checkbox.png";
 import mobile from "../Assets/mobile.png";
 import bottom from "../Assets/icons.png";
-import vector from "../Assets/Vector 1.png"
+import vector from "../Assets/Vector 1.png";
 
 const Wealthup = () => {
   return (
@@ -70,15 +70,13 @@ const Wealthup = () => {
           </div>
         </div>
       </div>
-
+      {/* second half */}
       <div className="w-full">
         <div className="w-full absolute -mt-[12rem]">
           <img
             src={vector}
             alt="vector"
-            className="object-fill z-10"
-            width={"100%"}
-            height={"100%"}
+            className="object-fill w-full z-10 h-full"
           />
         </div>
         <div className="z-40 absolute w-full mt-16 ">
@@ -107,13 +105,13 @@ const Wealthup = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center mt-[31px] relative z-20 -bottom-[27rem]">
+        {/* <div className="flex justify-center mt-[31px] relative z-20 -bottom-[27rem]">
           <button className="bg-orange-500 rounded-[32px] w-64 h-16  shadow px-6 py-1.5">
             <span className="text-white text-center font-poppins text-2xl font-semibold leading-12 tracking-normal">
               Get Started
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
